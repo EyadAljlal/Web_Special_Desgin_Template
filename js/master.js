@@ -117,7 +117,7 @@ function randomizeBackgroundImgs() {
         bgOptionInerval = setInterval(() => {
             let randomNumber = Math.floor(Math.random() * 6);
             document.querySelector(".landing-page").style.backgroundImage = 'url("../imgs/0' + randomNumber + '.jpg")';
-        }, 1000);
+        }, 10000);
     }
 }
 randomizeBackgroundImgs();
