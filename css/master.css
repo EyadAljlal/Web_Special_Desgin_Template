@@ -3,13 +3,6 @@
     --main-transation: all .5s;
     --padding-section: 50px 0px;
 }
-@font-face {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Open Sans') , url('../webfonts/OpenSans-VariableFont_wdth\,wght.ttf');
-    
-    }
 
 body {
     font-family: 'Open Sans', sans-serif;
